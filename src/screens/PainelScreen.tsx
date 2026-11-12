@@ -43,7 +43,7 @@ export default function PainelScreen({ navigation }: TabScreenProps<"Painel">) {
                 <>
                     <View style={globalStyles.cartao}>
                         <Text style={styles.numero}>{abertas}</Text>
-                        <Text style={globalStyles.texto}>ocorrências aguardando atendimento</Text>
+                        <Text style={globalStyles.texto}>{abertas === 1 ? "ocorrência aguardando atendimento" : "ocorrências aguardando atendimento"}</Text>
                     </View>
                     <View style={[globalStyles.cartao, styles.simulacao]}>
                         <View style={styles.simulacaoTextos}>
