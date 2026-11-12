@@ -111,7 +111,6 @@ src/
   utils/        Máscaras, validações e formatações
 assets/         Ícones e imagens do app
 docs/prints/    Capturas de tela
-docs/video/     Gravação de demonstração
 ```
 
 **Tecnologias:** React Native, Expo, TypeScript, React Navigation, Context API e AsyncStorage.
@@ -129,8 +128,6 @@ docs/video/     Gravação de demonstração
 ## Vídeo de demonstração
 
 Assista no YouTube: **[https://youtube.com/shorts/7ivxue75JP4](https://youtube.com/shorts/7ivxue75JP4)** (até 3 minutos).
-
-Uma cópia da gravação também está em [`docs/video/alertachuva-demo.mp4`](docs/video/alertachuva-demo.mp4).
 
 ## Integrantes
 
