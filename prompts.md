@@ -1,6 +1,10 @@
 # Registro de apoio ao desenvolvimento
 
-Durante o desenvolvimento do AlertaChuva, a equipe utilizou o Claude Code como ferramenta de apoio para organizar ideias, desenvolver partes da aplicação, revisar o código e preparar a documentação. Este arquivo registra os principais pedidos realizados, conforme as orientações da Global Solution.
+Durante o desenvolvimento do **AlertaChuva**, a equipe utilizou o Claude Code como ferramenta de apoio em algumas etapas do projeto. O recurso foi consultado para esclarecer dúvidas técnicas, avaliar possibilidades de implementação, auxiliar na organização do código e revisar a documentação.
+
+As decisões sobre as funcionalidades, a estrutura da aplicação e as soluções adotadas ficaram sob responsabilidade dos integrantes da equipe.
+
+Este documento registra os principais usos da ferramenta, conforme as orientações da Global Solution.
 
 ## Ferramenta utilizada
 
@@ -8,37 +12,64 @@ Claude Code (Anthropic).
 
 ## 1. Planejamento inicial
 
-**Material fornecido:** PDF da Global Solution CitizenTech e enunciado de Mobile Development & IoT, incluindo objetivos, entregáveis e critérios de avaliação.
+**Material utilizado:** PDF da Global Solution CitizenTech e enunciado da disciplina de Mobile Development & IoT, contendo os objetivos, entregáveis e critérios de avaliação.
 
-**Definições informadas pela equipe:**
-- Tema escolhido: chuvas e enchentes.
-- Base inicial do aplicativo: Expo com JavaScript.
+**Definições realizadas pela equipe:**
+- Escolha do tema: chuvas e enchentes.
+- Definição das principais funcionalidades do AlertaChuva.
+- Utilização do Expo como base para o desenvolvimento.
+- Planejamento da navegação e dos diferentes perfis de acesso.
 
-**Apoio solicitado:** estruturação inicial da solução e implementação do aplicativo a partir do tema e dos requisitos.
+**Apoio da ferramenta:** consulta de sugestões para organização inicial do projeto e esclarecimento de dúvidas relacionadas aos requisitos técnicos.
 
 ## 2. Organização e TypeScript
 
-**Pedido:** converter o aplicativo para TypeScript e utilizar o repositório `sistema-consultas-mobile`, projeto anterior da disciplina, como referência de organização, mantendo o código limpo, separado por responsabilidades e sem comentários desnecessários.
+Durante o desenvolvimento, a equipe decidiu utilizar TypeScript e adotou como referência de organização o repositório `sistema-consultas-mobile`, desenvolvido anteriormente na disciplina.
 
-**Apoio realizado:** adequação da estrutura e dos arquivos do projeto.
+**Apoio solicitado:** orientações sobre a conversão de arquivos para TypeScript, organização de pastas e boas práticas para separar as responsabilidades dos componentes.
 
-## 3. Documentação e apresentação
+A equipe analisou as sugestões recebidas e realizou os ajustes considerados adequados à estrutura do aplicativo.
 
-**Informações fornecidas:** integrantes da equipe e referência de localização do bairro Vila Sofia.
+## 3. Desenvolvimento das funcionalidades
 
-**Apoio solicitado:** preparação da Ficha CitizenTech, do README e dos registros visuais das telas.
+A implementação do AlertaChuva foi organizada pela equipe, considerando os requisitos da atividade e as funcionalidades planejadas.
 
-## 4. Partes do projeto que receberam apoio
+O Claude Code foi utilizado como apoio em dúvidas e ajustes específicos relacionados a:
 
-- Organização das pastas e separação de telas, componentes, contextos, serviços e utilitários.
-- Implementação e revisão de telas, navegação, formulários e fluxo de acesso por perfil.
-- Implementação e ajustes na simulação de sensores, nos alertas e na persistência local com AsyncStorage.
-- Elaboração e revisão de textos da documentação, incluindo o README e a Ficha CitizenTech.
+- Estruturação de telas e componentes reutilizáveis.
+- Navegação entre telas e controle de acesso por perfil.
+- Validação de campos e formulários.
+- Utilização do AsyncStorage para armazenamento local.
+- Organização da lógica de simulação dos sensores e exibição dos alertas.
+- Revisão de trechos de código e identificação de possíveis melhorias.
+
+As sugestões foram avaliadas e adaptadas conforme as necessidades do projeto.
+
+## 4. Documentação e apresentação
+
+A equipe organizou as informações necessárias para a entrega, incluindo a descrição do aplicativo, suas funcionalidades e os dados dos integrantes.
+
+**Apoio solicitado:** revisão da escrita, organização das informações do README e da Ficha CitizenTech e sugestões para melhorar a clareza da apresentação.
+
+O conteúdo foi revisado pela equipe para manter a documentação de acordo com o funcionamento real do aplicativo.
 
 ## 5. Revisão e validação
 
-Os textos e a documentação foram revisados para diferenciar as funcionalidades implementadas das possibilidades de evolução do aplicativo. Os sensores são simulados, as informações são armazenadas localmente e o login utiliza contas de demonstração.
+Durante a revisão do projeto, a ferramenta também foi utilizada para auxiliar na identificação de possíveis inconsistências entre a documentação e as funcionalidades implementadas.
 
-**Testes realizados pela equipe:** preencher nesta seção, antes da entrega, com os dispositivos utilizados, os fluxos testados, os resultados e eventuais correções.
+A equipe considerou as seguintes características da aplicação:
 
-Este registro descreve o apoio utilizado e não substitui a revisão técnica e a compreensão do código pelos integrantes da equipe.
+- Os dados dos sensores são simulados.
+- As informações são armazenadas localmente por meio do AsyncStorage.
+- O acesso utiliza contas de demonstração.
+- As funcionalidades previstas para futuras versões são apresentadas separadamente daquelas já implementadas.
+
+**Testes realizados pela equipe:** registrar os dispositivos utilizados, os fluxos testados, os resultados obtidos e eventuais correções antes da entrega.
+
+## 6. Considerações finais
+
+O Claude Code foi utilizado como um recurso complementar durante o desenvolvimento do AlertaChuva, contribuindo principalmente para consultas técnicas, revisão de código e organização da documentação.
+
+**A equipe permaneceu responsável pelo planejamento, pelas decisões técnicas, pela implementação, pelos testes e pela entrega do aplicativo.**
+
+O uso da ferramenta não substituiu o estudo das tecnologias utilizadas nem a compreensão do funcionamento da aplicação pelos integrantes do grupo.
